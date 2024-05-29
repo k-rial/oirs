@@ -1,4 +1,3 @@
-from telebot.service_utils import Image
 from tensorflow.keras.models import load_model
 from tensorflow.keras.preprocessing import image
 
@@ -6,6 +5,7 @@ import telebot
 
 import os
 from dotenv import load_dotenv
+import numpy as np
 
 load_dotenv()
 
